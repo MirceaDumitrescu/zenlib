@@ -13,4 +13,13 @@ const newArray = (initialArg = 0, maxArg = 0, increment = null) => {
     });
     }
 
+
+const isNumber = (arg) => {
+    if ( isNaN(arg) ) {
+        return false
+    } else {
+        return true
+    }}
+
 module.exports = newArray
+module.exports = isNumber
